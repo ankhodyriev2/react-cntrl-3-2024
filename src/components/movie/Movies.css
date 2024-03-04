@@ -1,0 +1,59 @@
+h1 {
+    display: flex;
+    justify-content: left;
+}
+
+div.card{
+    display: flex;
+    padding-bottom: 2%;
+    margin-left: 2px;
+    box-sizing: border-box;
+}
+
+div.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    border-block: 1rem solid;
+    writing-mode: horizontal-tb;
+    direction: rtl;
+    border-color: black;
+}
+
+div.col{
+    display: flex;
+    justify-content: center;
+}
+
+a.btn{
+    display: flex;
+    justify-content: center;
+}
+
+div.col-6{
+    display: flex;
+    justify-content: center;
+}
+
+p.card-text{
+    display: flex;
+    text-align: left;
+    margin-left: 1%;
+}
+
+ul.pagination{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+button {
+    background: #61dafb;
+}
+
+
+
